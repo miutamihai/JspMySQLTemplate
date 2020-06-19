@@ -12,7 +12,7 @@ A dockerized template for running a Jsp Web Application which connects to a MySQ
 3. Run the following command: 
 `jar -cvf jspmysqltemplate.war *`
 4. Now start the services by running: `docker-compose up --build`
-5. For the example to work, open a new terminat window
+5. For the example to work, open a new terminal window
 6. Run the following commands:
       - `docker exec -it jspmysqltemplate_jsp-app_1 bash`
       - `mysql -uroot -p`
