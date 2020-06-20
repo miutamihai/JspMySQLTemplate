@@ -14,7 +14,7 @@ A dockerized template for running a Jsp Web Application which connects to a MySQ
 4. Now start the services by running: `docker-compose up --build`
 5. For the example to work, open a new terminal window
 6. Run the following commands:
-      - `docker exec -it jspmysqltemplate_jsp-app_1 bash`
+      - `docker exec -it jspmysqltemplate_mysql-server_1 bash`
       - `mysql -uroot -p`
       - The requested password is: mysql
       - `create database db;`
