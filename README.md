@@ -4,7 +4,7 @@ A dockerized template for running a Jsp Web Application which connects to a MySQ
 ## Dependencies
 * docker
 * docker-compose
-* jar
+* default-jdk
 
 ## Running for the first time
 1. Clone the repo
