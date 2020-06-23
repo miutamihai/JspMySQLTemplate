@@ -24,6 +24,3 @@ A dockerized template for running a Jsp Web Application which connects to a MySQ
 ## Modifying the template
 After any change to the code, you must stop the running services by pressing Ctrl + C whilst in the running terminal, then repeat step 3 from the previous section.
 
-## Building upon the template
-Visit this [Docker Hub link](https://hub.docker.com/repository/docker/mihai16/jsp_mysql_template) and follow the instructions there.
-
