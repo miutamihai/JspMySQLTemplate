@@ -1,12 +1,16 @@
 version: "3"
 services: 
     mysql-server:
-        image: 'mysql'
+        container_name: mysql-server
+        build: 
+            context: .
+            dockerfile: Dockerfile.sql
         environment: 
             MYSQL_ROOT_PASSWORD: 'mysql'
         ports: 
             - "3306:3306"
     jsp-app:
+        container_name: jsp-app
         build: .
         ports: 
             - "8888:8080"
